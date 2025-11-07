@@ -1,18 +1,133 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="zh-CN">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>美食照片展示</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文字内容展示</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', 'Microsoft YaHei', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        h1 {
+            font-size: 2.2rem;
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+        
+        .subtitle {
+            font-size: 1.1rem;
+            color: #7f8c8d;
+            font-weight: 400;
+        }
+        
+        .content-section {
+            margin-bottom: 30px;
+        }
+        
+        h2 {
+            font-size: 1.5rem;
+            color: #3498db;
+            margin-bottom: 15px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            font-size: 1.05rem;
+            text-align: justify;
+        }
+        
+        .quote {
+            background-color: #f8f9fa;
+            border-left: 4px solid #3498db;
+            padding: 15px 20px;
+            margin: 20px 0;
+            font-style: italic;
+            color: #555;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            color: #7f8c8d;
+            font-size: 0.9rem;
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
 </head>
 <body>
-  <h1>我的美食照片墙</h1>
-  <div class="gallery">
-<!-- 美食卡片1 -->
-            <div class="food-card">
-                <img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" class="food-img">
+    <div class="container">
+        <header>
+            <h1>文字的力量</h1>
+            <p class="subtitle">语言是思想的载体，文字是文明的基石</p>
+        </header>
+        
+        <div class="content-section">
+            <h2>关于文字</h2>
+            <p>文字是人类文明的重要标志，它记录着历史，传承着文化，表达着思想。从古代的甲骨文到现代的电子文本，文字始终是人类沟通的核心工具。</p>
+            <p>通过文字，我们可以跨越时空与古人对话，可以与远方的人分享思想，可以记录下稍纵即逝的灵感。文字的力量在于它的持久性和传播性。</p>
+        </div>
+        
+        <div class="content-section">
+            <h2>文字的魅力</h2>
+            <p>优秀的文字能够触动人心，激发思考，甚至改变世界。一部伟大的文学作品，一篇深刻的哲学论述，一首动人的诗歌，都能通过文字的力量影响无数人。</p>
+            
+            <div class="quote">
+                "文字是人类文明的火炬，在黑暗中照亮前行的道路。"
             </div>
-  </div>
+            
+            <p>在信息爆炸的时代，简洁、准确、有力的文字变得更加珍贵。它帮助我们过滤噪音，聚焦本质，传达真实的价值。</p>
+        </div>
+        
+        <div class="content-section">
+            <h2>文字的传承</h2>
+            <p>每一种文字系统都承载着一个民族的历史与智慧。汉字的结构之美，拉丁字母的简洁实用，阿拉伯文字的流畅曲线，都是人类文明的瑰宝。</p>
+            <p>保护和发展文字文化，就是保护人类多样性的思想宝库。在全球化背景下，这一点显得尤为重要。</p>
+        </div>
+        
+        <footer>
+            <p>文字内容展示页面 | 简洁设计</p>
+        </footer>
+    </div>
 </body>
 </html>
